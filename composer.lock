@@ -1,0 +1,158 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "731cd94e735017df2cf44ea92791ba04",
+    "packages": [
+        {
+            "name": "cakephp/cakephp",
+            "version": "2.3.1",
+            "source": {
+                "type": "git",
+                "url": "git://github.com/cakephp/cakephp.git",
+                "reference": "2.3.1"
+            },
+            "bin": [
+                "lib/Cake/Console/cake"
+            ],
+            "type": "library"
+        },
+        {
+            "name": "cakephp/debug_kit",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/cakephp/debug_kit.git",
+                "reference": "e6fe6a6972b1902490bb15055a99aa42c91d84c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/cakephp/debug_kit/zipball/e6fe6a6972b1902490bb15055a99aa42c91d84c3",
+                "reference": "e6fe6a6972b1902490bb15055a99aa42c91d84c3",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "cakephp-plugin",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Story",
+                    "homepage": "http://mark-story.com",
+                    "role": "Author"
+                },
+                {
+                    "name": "CakePHP Community",
+                    "homepage": "https://github.com/cakephp/debug_kit/graphs/contributors"
+                }
+            ],
+            "description": "CakePHP Debug Kit",
+            "homepage": "https://github.com/cakephp/debug_kit",
+            "keywords": [
+                "cakephp",
+                "debug",
+                "kit"
+            ],
+            "time": "2013-04-20 19:11:16"
+        },
+        {
+            "name": "composer/installers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "6c23b07b3d07e392a1769110d2a910ab269aaa3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/6c23b07b3d07e392a1769110d2a910ab269aaa3d",
+                "reference": "6c23b07b3d07e392a1769110d2a910ab269aaa3d",
+                "shasum": ""
+            },
+            "replace": {
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "3.7.*"
+            },
+            "type": "composer-installer",
+            "extra": {
+                "class": "Composer\\Installers\\Installer",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Composer\\Installers\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "http://composer.github.com/installers/",
+            "keywords": [
+                "TYPO3 Flow",
+                "TYPO3 Neos",
+                "agl",
+                "cakephp",
+                "codeigniter",
+                "drupal",
+                "fuelphp",
+                "installer",
+                "joomla",
+                "kohana",
+                "laravel",
+                "li3",
+                "lithium",
+                "mako",
+                "phpbb",
+                "ppi",
+                "silverstripe",
+                "symfony",
+                "wordpress",
+                "yii",
+                "zend"
+            ],
+            "time": "2013-04-22 16:11:49"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "dev",
+    "stability-flags": [
+
+    ],
+    "platform": {
+        "php": ">=5.2"
+    },
+    "platform-dev": [
+
+    ]
+}

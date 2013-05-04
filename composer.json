@@ -1,0 +1,31 @@
+{
+  "minimum-stability": "dev",
+  "config": {
+      "vendor-dir": "vendors"
+  },
+  "repositories" : [
+    {
+      "type": "package",
+      "package": {
+        "name" : "cakephp/cakephp",
+        "version" : "2.3.1",
+        "source" : {
+          "type" : "git",
+          "url" : "git://github.com/cakephp/cakephp.git",
+          "reference" : "2.3.1"
+        },
+        "bin" : ["lib/Cake/Console/cake"]
+      }
+    }
+  ],
+  "extra": {
+    "installer-paths": {
+      "app/Plugin/DebugKit": ["cakephp/debug_kit"]
+    }
+  },
+  "require" : {
+    "php": ">=5.2",
+    "cakephp/cakephp" : "2.3.1",
+    "cakephp/debug_kit": "2.2.*"
+  }
+}

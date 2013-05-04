@@ -23,6 +23,8 @@
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 
+require_once dirname(dirname( __DIR__)) . '/vendors/autoload.php';
+
 /**
  * Cache Engine Configuration
  * Default settings provided below
